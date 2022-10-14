@@ -1,6 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
+:root {
+    --primary-color: #0c4a6e;
+    --secondary-color: #bae6fd;
+}
+
+body {
+    margin: 0px;
+    background-color: var(--primary-color);
+    font-family: 'Lato', sans-serif;
+}
+
+.container-nav {
+    max-width: 100%;
+    background-color: var(--secondary-color);
+    height: 5vh;
+    font-size: x-large;
+    padding: 2rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.nav-link {
+    color: var(--primary-color);
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-right: 0.5rem;
+}
+
 .container {
     max-width: 50%;
     margin: auto;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
     /*display: block;*/
     /*text-align: center;*/
 }
@@ -11,19 +45,45 @@
     margin: 1rem 0;
 }
 
-.input-field {
+.input-angle {
     display: block;
     margin: 0.5rem 0rem 1rem 0rem;
     padding: 0.5rem;
     width: 50%;
-    text-align: center;
 }
 
-#area-btn {
+.input-side {
+    display: block;
+    margin: 0.5rem 0rem 1rem 0rem;
+    padding: 0.5rem;
+    width: 50%;
+}
+
+.button {
     padding: 0.5rem 1rem;
     cursor: pointer;
-    background-color: aquamarine;
-    color: black;
     border-radius: 1rem;
+    border: 1px solid whitesmoke;
     margin: 0 0 1rem 0;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+#output {
+    font-size: x-large;
+    margin-top: 1rem;
+}
+
+.quiz-form {
+    max-width: 100%;
+    margin: auto;
+}
+
+.quiz-container {
+    width: 87%;
+    border: 1px solid whitesmoke;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
 }
