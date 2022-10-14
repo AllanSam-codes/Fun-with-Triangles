@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
     <title>Area </title>
 </head>
 
 <body>
-    <h1>Calculate Area</h1>
-    <label>Breath</label>
-    <input type="number" class="input-area"></input>
-    <label>Heigth</label>
-    <input type="number" class="input-area"></input>
-    <button id="area-btn">Calculate Area</button>
-    <div id="output"></div>
+    <div class="container">
+        <h1 class="heading">Calculate Area</h1>
+        <label>Base:</label>
+        <input type="number" class="input-field" id="base"></input>
+        <label>Height:</label>
+        <input type="number" class="input-field" id="height"></input>
+        <button id="area-btn">Calculate Area</button>
+        <div id="output"></div>
+    </div>
+
 
     <script src="/area.js"></script>
 

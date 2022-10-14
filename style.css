@@ -1,0 +1,29 @@
+.container {
+    max-width: 50%;
+    margin: auto;
+    /*display: block;*/
+    /*text-align: center;*/
+}
+
+.heading {
+    text-align: center;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.input-field {
+    display: block;
+    margin: 0.5rem 0rem 1rem 0rem;
+    padding: 0.5rem;
+    width: 50%;
+    text-align: center;
+}
+
+#area-btn {
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    background-color: aquamarine;
+    color: black;
+    border-radius: 1rem;
+    margin: 0 0 1rem 0;
+}
