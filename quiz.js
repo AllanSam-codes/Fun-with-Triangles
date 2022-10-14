@@ -17,7 +17,7 @@ function calculateScore() {
         index = index + 1;
     }
     console.log();
-    output.innerText = " Your score is ! " + score
+    output.innerText = " Your score is " + score + "!"
 }
 
 submitAnswerBtn.addEventListener("click", calculateScore)
