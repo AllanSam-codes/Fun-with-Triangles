@@ -2,7 +2,7 @@
 const inputBase = document.querySelector("#base");
 const inputHeight = document.querySelector("#height")
 const areaBtn = document.querySelector("#area-btn");
-const output = document.querySelector("#output");
+const outputBox = document.querySelector("#output-box");
 
 //console.log(inputBase.value, inputHeight.value)
 //console.log(areaBtn, output)
@@ -10,7 +10,7 @@ const output = document.querySelector("#output");
 function calculateAreaOfTriangle() {
     //console.log("Calculate area called", inputBase.value, inputHeight.value);
     var area = (0.5) * inputBase.value * inputHeight.value;
-    output.innerText = "The area of a triangle is " + area;
+    outputBox.innerText = "The area of a triangle is " + area;
 }
 
 areaBtn.addEventListener('click', calculateAreaOfTriangle);
