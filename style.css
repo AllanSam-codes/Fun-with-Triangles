@@ -81,11 +81,11 @@ body {
     border-radius: 1rem;
     border: 1px solid whitesmoke;
     margin: 0 0 1rem 0;
-    background-color: var(--primary-color);
-    color: var(--secondary-color);
+    color: var(--primary-color);
+    background-color: #fff;
 }
 
-#output {
+#output-box {
     font-size: x-large;
     margin-top: 1rem;
 }
@@ -98,8 +98,7 @@ body {
 .quiz-container {
     width: 87%;
     border: 1px solid whitesmoke;
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
+    margin: 1.5rem 0rem 1.5rem 0rem;
     border-radius: 0.5rem;
-    padding: 1.5rem;
+    padding: 1rem;
 }
