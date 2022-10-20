@@ -9,14 +9,16 @@ function calculateScore() {
     let score = 0;
     let index = 0;
     const fromResults = new FormData(quizForm);
-    //console.log(fromResults)
+    console.log(fromResults.values());
+
     for (let value of fromResults.values()) {
+        console.log("value", value)
         if (value === correctAnswer[index]) {
             score = score + 1;
         }
         index = index + 1;
     }
-    console.log();
+
     outputBox.innerText = " Your score is " + score + " ! "
 }
 
